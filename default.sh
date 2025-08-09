@@ -15,7 +15,7 @@ APT_PACKAGES=(
 )
 
 PIP_PACKAGES=(
-    #"package-1"
+    "av"
     #"package-2"
 )
 

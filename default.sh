@@ -99,7 +99,7 @@ function provisioning_start() {
     provisioning_get_nodes
     provisioning_get_pip_packages
     provisioning_get_models \
-        "${WORKSPACE}/ComfyUI/models/diffusion_models" \
+        "${WORKSPACE}ComfyUI/models/diffusion_models" \
         "${DIFFUSION_MODELS[@]}"
     #provisioning_get_models \
     #    "${WORKSPACE}/storage/stable_diffusion/models/unet" \
@@ -111,10 +111,10 @@ function provisioning_start() {
     #    "${WORKSPACE}/storage/stable_diffusion/models/controlnet" \
     #    "${CONTROLNET_MODELS[@]}"
     provisioning_get_models \
-        "${WORKSPACE}/ComfyUI/models/vae" \
+        "${WORKSPACE}ComfyUI/models/vae" \
         "${VAE_MODELS[@]}"
     provisioning_get_models \
-        "${WORKSPACE}/ComfyUI/models/text_encoders" \
+        "${WORKSPACE}ComfyUI/models/text_encoders" \
         "${TEXT_ENCODER_MODELS[@]}"
     provisioning_print_end
 }
